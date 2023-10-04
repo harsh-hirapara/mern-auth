@@ -1,0 +1,15 @@
+1) add extension talwind css intellisense
+and then for auto suggestion add below lines
+Edit your settings.json as below:
+
+{
+  // other settings
+  "tailwindCSS.includeLanguages": {
+    "javascript": "javascript",
+    "html": "HTML"
+  },
+  "editor.quickSuggestions": {
+    "strings": true
+  }
+}
+
